@@ -17,6 +17,7 @@
         android:layout_weight="1">
 
         <EditText
+            android:id="@+id/numero1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="number"
@@ -26,6 +27,7 @@
             android:layout_weight="1"/>
 
         <EditText
+            android:id="@+id/numero2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:inputType="number"
@@ -37,6 +39,7 @@
     </LinearLayout>
 
     <TextView
+        android:id="@+id/resultado"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginVertical="70dp"
@@ -53,10 +56,13 @@
         android:layout_marginBottom="90dp">
 
         <Button
+            android:id="@+id/iniciarSoma"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingHorizontal="64dp"
+            android:paddingVertical="32dp"
             android:text="Iniciar soma"
-            android:textSize="16sp"
+            android:textSize="20sp"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"/>
 
